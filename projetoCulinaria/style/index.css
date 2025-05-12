@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1ece8;
+}
+
+.titulo-principal {
+    text-align: center !important;
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 3rem !important;
+    color: #333 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; 
+}
+
+.receita-card {
+    border: none !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.receita-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.receita-img {
+    height: 220px !important;
+    object-fit: cover !important;
+    border-bottom: 1px solid #eaeaea !important;
+}
+
+.card-title {
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+    color: #222 !important;
+}
+
+.card-text {
+    color: #555 !important;
+    font-size: 0.95rem !important;
+}
+
+.ingredientes {
+    max-height: 70px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+section h2 {
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+section p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+btn-outline-primary {
+    --bs-btn-color: #000000;
+    --bs-btn-border-color: #e7c1a2;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: #f1ece8;
+    --bs-btn-hover-border-color: #e7c1a2;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-disabled-border-color: #000000;
+}
